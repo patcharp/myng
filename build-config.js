@@ -9,6 +9,7 @@ export const config = {
     app_version: '${process.env.VERSION}',
     build_time: '${process.env.BUILD_TIME}',
     build_commit: '${process.env.BUILD_COMMIT}',
+    session_key: '${process.env.SESSION_KEY}',
 };
 `;
 

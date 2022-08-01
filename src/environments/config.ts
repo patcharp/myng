@@ -6,4 +6,5 @@ export const config = {
     app_version: 'undefined',
     build_time: 'undefined',
     build_commit: 'undefined',
+    session_key: 'undefined',
 };

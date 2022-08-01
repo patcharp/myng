@@ -14,6 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 registerLocaleData(en);
 
 import { NzMessageService } from 'ng-zorro-antd/message';
+import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
     declarations: [
@@ -24,7 +26,9 @@ import { NzMessageService } from 'ng-zorro-antd/message';
         AppRoutingModule,
         FormsModule,
         HttpClientModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        CoreModule,
+        SharedModule,
     ],
     providers: [
         { provide: NZ_I18N, useValue: en_US },

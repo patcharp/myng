@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 // Standard NG Zorro
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
@@ -12,7 +11,6 @@ import { NzAvatarModule } from 'ng-zorro-antd/avatar';
 @NgModule({
     declarations: [],
     imports: [
-        CommonModule,
         // Ng Zorro
         NzLayoutModule,
         NzGridModule,
@@ -22,7 +20,6 @@ import { NzAvatarModule } from 'ng-zorro-antd/avatar';
         NzAvatarModule,
     ],
     exports: [
-        CommonModule,
         // Ng Zorro
         NzLayoutModule,
         NzGridModule,
